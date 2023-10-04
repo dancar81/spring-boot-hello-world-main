@@ -7,3 +7,5 @@ WORKDIR /opt/app
 COPY ${JAR_FILE} hello-world-1.0.jar
 
 ENTRYPOINT ["java","-jar","hello-world-1.0.jar"]
+
+ EXPOSE 8081
